@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -22,21 +23,23 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func btnSaludo(sender: AnyObject) {
+   
     
-        
-        
-        let alertController = UIAlertController(title: "Saludo", message:
-            "Hola Version con GitHub", preferredStyle: UIAlertControllerStyle.Alert)
+    @IBAction func btnSaludos(sender: AnyObject) {
+   
+        let alertController = UIAlertController(title: "Saludos", message:
+            "Prueba de GitHub", preferredStyle: UIAlertControllerStyle.Alert)
         
         alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default,handler: nil))
-        
+       
         
         self.presentViewController(alertController, animated: true, completion: nil)
         
 
     
     }
-
+    
+    
+    
 }
 
