@@ -18,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ex2-gL-dzi">
-                                <rect key="frame" x="114" y="152" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="137" y="210" width="46" height="30"/>
+                                <state key="normal" title="saludo"/>
                                 <connections>
                                     <action selector="btnSaludos:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cRb-Ie-YbA"/>
                                 </connections>
